@@ -52,6 +52,7 @@
     * [Testnet](tutorials-and-guides/developer-guides/quick-start-hello-world/testnet.md)
     * [Devnet](tutorials-and-guides/developer-guides/quick-start-hello-world/devnet.md)
     * [Deployment Walkthrough](tutorials-and-guides/developer-guides/quick-start-hello-world/deployment-walkthrough.md)
+    * [Deployment Walkthrough](tutorials-and-guides/developer-guides/quick-start-hello-world/deployment-walkthrough-1.md)
   * [Modifying a Solana dApp to Support Eclipse: "Chomping Glass"](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/README.md)
     * [Developing on the Solana Virtual Machine (SVM)](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/developing-on-the-solana-virtual-machine-svm.md)
     * [Multi-chain toggle frontend component](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/multi-chain-toggle-frontend-component.md)

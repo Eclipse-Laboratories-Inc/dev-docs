@@ -1,25 +1,10 @@
----
-hidden: true
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
+# Deployment Walkthrough
 
-# Testnet
-
-This guide walks you through deploying a simple smart contract to Eclipse Testnet.
+{% embed url="https://youtu.be/_Z6696Qwa8g" %}
 
 ## Prerequisites
 
-You'll have to do a few things before you can deploy your smart contract to Eclipse Testnet.
+You'll have to do a few things before you can deploy your smart contract to Eclipse Devnet & Testnet.
 
 ### Install Dependencies
 
@@ -48,10 +33,16 @@ Note that npm is bundled with the Node.js installation, so you don't have to ins
 sudo sh -c "$(curl -sSfL https://release.anza.xyz/v1.18.22/install)"
 ```
 
-**iv.** Instead of setting your Solana CLI to a local cluster, set it to Eclipse Testnet with the following command:
+**iv.** Instead of setting your Solana CLI to a local cluster, set it to Eclipse **Testnet** with the following command:
 
 ```bash
 solana config set --url https://testnet.dev2.eclipsenetwork.xyz
+```
+
+For **Devnet**:
+
+```
+solana config set --url https://staging-rpc.dev2.eclipsenetwork.xyz
 ```
 
 **v.** If this is your first time using the Solana CLI, you will need to generate a new keypair:
@@ -60,9 +51,13 @@ solana config set --url https://testnet.dev2.eclipsenetwork.xyz
 solana-keygen new
 ```
 
-This will generate a new key pair and save it to your local machine. You will need this key pair to sign transactions to deploy your smart contract to Eclipse Testnet.
+This will generate a new key pair and save it to your local machine. You will need this key pair to sign transactions to deploy your smart contract to Eclipse Testnet/Devnet.
 
-### **Getting Sepolia ETH Tokens**
+## **Getting Test Tokens**
+
+### Testnet:
+
+#### **Getting Sepolia ETH Tokens**
 
 You will need an Ethereum wallet such as Metamask to claim and bridge Sepolia ETH. As a user, you can use Sepolia ETH to explore the Eclipse testnet and dApps deployed on the network.&#x20;
 
@@ -78,11 +73,11 @@ Here are instructions on how to claim Sepolia ETH on [**Chainlink Sepolia ETH fa
 2. Visit the Alchemy Sepolia faucet and log in with your Alchemy account.
 3. Enter your wallet address in the provided box and click "Get tokens".
 
-### Deposit Sepolia ETH to Eclipse Testnet
+#### Deposit Sepolia ETH to Eclipse Testnet
 
 Once you've acquired Sepolia ETH, this script allows you to deposit Sepolia ETH to the Eclipse test network.
 
-### Wallet Setup
+#### Wallet Setup
 
 #### Getting Your Ethereum Private Key
 
@@ -96,7 +91,7 @@ Copy the previously generated "Solana" address using the Solana CLI:&#x20;
 
 The public key in the output should resemble something like this following: `6g8wB6cJbodeYaEb5aD9QYqhdxiS8igfcHpz36oHY7p8`
 
-### Create a Deposit
+#### Create a Deposit
 
 Obtain and set up the deposit.js script: [https://github.com/Eclipse-Laboratories-Inc/testnet-deposit](https://github.com/Eclipse-Laboratories-Inc/testnet-deposit)
 
@@ -138,6 +133,21 @@ Transaction hash: 0x15041e2f67e821f8a76671aa282f3b7994d81b2c0b3434d67880ef88c988
 You can check the transaction hash on [Sepolia testnet](https://sepolia.etherscan.io/).
 
 You can verify your testnet account balance using the [Eclipse Explorer](https://explorer.dev.eclipsenetwork.xyz/?cluster=testnet).
+
+### For Devnet:
+
+### Acquiring Devnet Tokens[​](https://documentation-nine-smoky.vercel.app/Build/SVM/intro#acquiring-testnet-tokens)
+
+We need to claim devnet tokens to pay for transaction fees to deploy your smart contract to the devnet.
+
+Run the following commands to get 10 devnet tokens in your local wallet:
+
+1. `solana config set --url https://staging-rpc.dev2.eclipsenetwork.xyz`
+2. `solana airdrop 10`
+
+{% hint style="danger" %}
+These devnet tokens are only valid on the devnet and are meant for testing purposes only. Eclipse will never charge you for devnet tokens. Please be wary of scams. Report any suspicious activity to us on our [Discord server](https://discord.com/invite/5jDfXHJGCk).
+{% endhint %}
 
 ## Deploying the Smart Contract[​](https://documentation-nine-smoky.vercel.app/Build/SVM/intro#deploying-the-smart-contract) <a href="#deploying-the-smart-contract" id="deploying-the-smart-contract"></a>
 
