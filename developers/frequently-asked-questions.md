@@ -108,9 +108,9 @@ The Solana (Sealevel) virtual machine is a highly parallelized runtime that is c
 
 <details>
 
-<summary>What is the main difference between devnet and testnet for a Solana project deploying on Eclipse?</summary>
+<summary>What is the main difference between devnet and testnet for a project deploying on Eclipse?</summary>
 
-The difference is that the testnet includes the initial version of the validating bridge, and it also posts blobs Celestia. This means that you can view these blobs in a block explorer and test out the ETH bridge. This is a more realistic experience compared to mainnet.
+The difference is that the testnet includes the initial version of the validating bridge, and it also posts blobs Celestia. This means that you can view these blobs in a [block explorer](https://mocha-4.celenium.io/namespace/0000000000000000000000000000000000000000000065636c74330a?tab=Blobs) and test out the [ETH bridge](https://app.eclipse.xyz/?target=deposit). This is a more realistic experience compared to devnet.
 
 </details>
 
