@@ -121,9 +121,16 @@ Here are the assets players can bridge to grow grass:&#x20;
 
 <summary>How do I bridge these assets?</summary>
 
-* ETH: [https://app.eclipse.xyz/bridge?target=instant](https://app.eclipse.xyz/bridge?target=instant)
-* tETH: [app.eclipse.xyz/teth](http://app.eclipse.xyz/teth)
+* ETH: [https://app.eclipse.xyz/bridge](https://app.eclipse.xyz/bridge)
+* tETH: [https://app.eclipse.xyz/mint-teth](https://app.eclipse.xyz/mint-teth)
 * All other assets: [usenexus.org](http://usenexus.org/)
 
 </details>
 
+<details>
+
+<summary>How do I use my Ledger wallet?</summary>
+
+When connecting your wallet, ensure you've selected the "Using Ledger" toggle before you click connect. If you didn't toggle this, you can disconnect your wallet and select it when connecting again.
+
+</details>
