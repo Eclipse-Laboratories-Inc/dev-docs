@@ -2,8 +2,6 @@
 
 ## For New Eclipse Users Starting Out:
 
-{% stepper %}
-{% step %}
 ### [Set Up Your Eclipse Wallet](users/getting-started/1.-set-up-your-eclipse-wallet.md)
 
 The first step is to create and configure your Eclipse wallet, your gateway to everything Eclipse.
