@@ -15,7 +15,7 @@ There are many virtual machines. How should you decide which is best for you?
 * **Community**: Popular blockchains like Ethereum and Solana have fostered thriving developer communities around the EVM and SVM respectively. This means better tooling and developer support compared to newer virtual machines like the Move VM or Fuel VM.
 * **Ease-of-use**: Languages such as Solidity are easier to code in, and not all bytecodes support compilation from Solidity.&#x20;
 
-Eclipse Mainnet runs the **Solana Virtual Machine (SVM)**, but we can also support programs built for the **Ethereum Virtual Machine (EVM)** using Neon EVM. We will add other bytecode formats in the future as dApps request them. You can even use existing tooling for the EVM such as Truffle or Remix or tooling for the SVM such as the Solana CLI or Seahorse Lang.
+Eclipse Mainnet runs the **Solana Virtual Machine (SVM)**. You can even use existing tooling for the SVM such as the Solana CLI or Seahorse Lang.
 
 ## **Optimized Parallel Execution**&#x20;
 
@@ -48,12 +48,6 @@ More importantly, the EVM has [dynamic account access](https://x.com/aeyakovenko
 As a result, [state size doesn't impact SVM execution](https://x.com/aeyakovenko/status/1699460999697555512?s=20). The network could safely double the snapshot size every 2 years without running into major issues assuming validators upgrade their storage disks every 2 years.
 
 Furthermore, teams like [Helius](https://www.helius.dev/) are actively improving the accessibility of historical data and reducing state size with [compression](https://docs.helius.dev/compression-and-das-api/what-is-compression-on-solana).
-
-## EVM Compatibility&#x20;
-
-[Neon EVM](https://neonevm.org/) is an EVM operating as a smart contract that can be deployed on any SVM chain. This brings full [EVM compatibility to Eclipse Mainnet](https://www.eclipse.builders/blog/neon-evm-and-eclipses-hybrid) (including EVM bytecode support and the Ethereum JSON-RPC) with [greater throughput than single-threaded EVMs](https://twitter.com/aeyakovenko/status/1689745762077523968?s=20). Because each Neon EVM instance has its own local fee market, apps can just deploy their own contract to attain the benefits of an app chain without fragmenting UX, security, or liquidity.&#x20;
-
-Separately, the [Solang](https://github.com/hyperledger/solang) compiler enables compilation of Solidity smart contracts code into SVM bytecode.
 
 ## MetaMask Snaps&#x20;
 
