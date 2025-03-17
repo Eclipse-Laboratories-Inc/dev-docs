@@ -3,10 +3,10 @@
 ## 🐮 Users
 
 * [Getting Started](README.md)
-  * [1. Set Up Your Eclipse Wallet](users/getting-started/1.-set-up-your-eclipse-wallet.md)
-  * [2. Bridge Assets for Gas and Transactions](users/getting-started/2.-bridge-assets-for-gas-and-transactions.md)
-  * [3. Explore the Eclipse Ecosystem](users/getting-started/3.-explore-the-eclipse-ecosystem.md)
-  * [4. Engage with the Community on Discord](users/getting-started/4.-engage-with-the-community-on-discord.md)
+  * [1. Set Up Your Eclipse Wallet](users/readme/1.-set-up-your-eclipse-wallet.md)
+  * [2. Bridge Assets for Gas and Transactions](users/readme/2.-bridge-assets-for-gas-and-transactions.md)
+  * [3. Explore the Eclipse Ecosystem](users/readme/3.-explore-the-eclipse-ecosystem.md)
+  * [4. Engage with the Community on Discord](users/readme/4.-engage-with-the-community-on-discord.md)
 * [User Resources](users/user-resources.md)
 * [Unified Restaking Tokens (URTs)](users/unified-restaking-tokens-urts.md)
 * [Turbo Tap FAQ](users/turbo-tap-faq.md)

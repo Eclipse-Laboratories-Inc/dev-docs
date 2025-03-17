@@ -20,7 +20,7 @@ We've compiled a list of the most commonly asked questions about integrating wit
 
 <summary>What is the timeline for Eclipse Mainnet?</summary>
 
-Eclipse Mainnet is **live**! Learn about how to get started [here](../).
+Eclipse Mainnet is **live**! Learn about how to get started [here](broken-reference).
 
 </details>
 

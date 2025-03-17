@@ -8,7 +8,7 @@ description: >-
 
 ### Native Token
 
-The native token on Eclipse is ETH. It uses 9 decimal places, unlike Ethereum. You can get this token by bridging over ETH from mainnet Ethereum or from bridging over SOL or USDC from Solana. See our guide on how to do this [here](../users/getting-started/2.-bridge-assets-for-gas-and-transactions.md).
+The native token on Eclipse is ETH. It uses 9 decimal places, unlike Ethereum. You can get this token by bridging over ETH from mainnet Ethereum or from bridging over SOL or USDC from Solana. See our guide on how to do this [here](../users/readme/2.-bridge-assets-for-gas-and-transactions.md).
 
 Similar to Solana, there are also wrapped versions of the native token for both the SPL Token and SPL Token 2022, both with 9 decimals as well. You can read more about the reasoning behind this [here](https://www.quicknode.com/guides/solana-development/getting-started/a-complete-guide-to-wrapped-sol#what-is-wrapped-sol).
 
