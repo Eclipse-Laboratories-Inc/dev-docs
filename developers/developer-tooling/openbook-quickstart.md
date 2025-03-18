@@ -29,7 +29,7 @@ WARNING
 
 **Make sure you add the Rust toolchain to your PATH**
 
-**Finally, lets go ahead and install the Solana CLI tools**[**​**](https://icarus131.github.io/devcookbook/docs/DevCookBook#finally-lets-go-ahead-and-install-the-solana-cli-tools)
+**Finally, let's go ahead and install the Solana CLI tools**[**​**](https://icarus131.github.io/devcookbook/docs/DevCookBook#finally-lets-go-ahead-and-install-the-solana-cli-tools)
 
 ```bash
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
@@ -62,7 +62,7 @@ solana airdrop 10
 * The Eclipse OpenBook deployment has its own API which is essential for us to interact with it.
 * We will mostly follow the standard deployment process for any Solana app
 * We will also need the programId for the OpenBook deployment on the Eclipse Devnet, which is as follows: `xY9r3jzQQLYuxBycxfT31xytsPDrpacWnyswMskn16s`
-* Lets begin by writing out our `lib.rs` file.
+* Let's begin by writing out our `lib.rs` file.
 * First we need to include the anchor crates and declare the programId
 
 ```rust
@@ -74,9 +74,9 @@ declare_id!("<smart_contract_programId>");
 
 ```
 
-* Now lets go ahead and write the logic for our smart contract here.
+* Now let's go ahead and write the logic for our smart contract here.
 * Since everything is an account on Solana, we need to define our accounts here.
-* We can also add any required function and it's logic here
+* We can also add any required function and its logic here
 
 ```rust
 ...
@@ -97,8 +97,8 @@ pub mod my_smart_contract {
 ...
 ```
 
-* Now lets go ahead and interact with the OpenBook deployment.
-* First lets connect to the Eclipse devnet by supplying the RPC url
+* Now let's go ahead and interact with the OpenBook deployment.
+* First let's connect to the Eclipse devnet by supplying the RPC url
 * Now we can use the programId to connect to the OpenBook deployment
 * After this we can write whatever API calls we need
 

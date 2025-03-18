@@ -10,7 +10,7 @@ Squads Protocol is a collection of programs (smart contracts) that enables devel
 
 #### Public UI <a href="#getting-started" id="getting-started"></a>
 
-The [public UI](https://backup.app.squads.so/create) is recommened. Navigate to settings and set the RPC URL to a valid [Eclipse endpoint](https://docs.squads.so/main/development/cli/installation), and the program ID to the one above.&#x20;
+The [public UI](https://backup.app.squads.so/create) is recommended. Navigate to settings and set the RPC URL to a valid [Eclipse endpoint](https://docs.squads.so/main/development/cli/installation), and the program ID to the one above.&#x20;
 
 #### CLI
 
