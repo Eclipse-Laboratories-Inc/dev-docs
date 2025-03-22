@@ -12,7 +12,7 @@ To ensure your React app is fully functional in the browser, especially when it 
    *   Open `webpack.config.js` in your editor and paste the following code into the file:
 
        ```javascript
-       javascriptCopy codeconst webpack = require('webpack');
+       const webpack = require('webpack');
        module.exports = function override(config, env) {
            config.resolve.fallback = {
                url: require.resolve('url'),
