@@ -43,6 +43,7 @@
 * [Eclipse Status Page](developers/eclipse-status-page.md)
 * [Frequently Asked Questions](developers/frequently-asked-questions.md)
 * [Differences Between Eclipse and Solana](developers/differences-between-eclipse-and-solana.md)
+* [Eclipse Program Registry Guide](developers/eclipse-program-registry-guide.md)
 
 ## 📖 Tutorials & Guides
 
@@ -53,10 +54,10 @@
     * [Devnet](tutorials-and-guides/developer-guides/quick-start-hello-world/devnet.md)
     * [Deployment Walkthrough](tutorials-and-guides/developer-guides/quick-start-hello-world/deployment-walkthrough.md)
     * [Deployment Walkthrough](tutorials-and-guides/developer-guides/quick-start-hello-world/deployment-walkthrough-1.md)
+  * [Reading from the blockchain](tutorials-and-guides/developer-guides/reading-from-the-blockchain.md)
   * [Modifying a Solana dApp to Support Eclipse: "Chomping Glass"](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/README.md)
     * [Developing on the Solana Virtual Machine (SVM)](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/developing-on-the-solana-virtual-machine-svm.md)
     * [Multi-chain toggle frontend component](tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/multi-chain-toggle-frontend-component.md)
-  * [Eclipse Program Registry Guide](tutorials-and-guides/developer-guides/eclipse-program-registry-guide.md)
   * [Dapp Deployment Tutorial - Eclipse Devnet](tutorials-and-guides/developer-guides/dapp-deployment-tutorial-eclipse-devnet/README.md)
     * [⚙️ Install Dependencies - Windows](tutorials-and-guides/developer-guides/dapp-deployment-tutorial-eclipse-devnet/install-dependencies-windows/README.md)
       * [Step 1: Install Visual Studio Code (VSC)](tutorials-and-guides/developer-guides/dapp-deployment-tutorial-eclipse-devnet/install-dependencies-windows/step-1-install-visual-studio-code-vsc.md)

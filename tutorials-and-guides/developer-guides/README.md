@@ -10,8 +10,8 @@ Below is a list of available tutorials and guides for Eclipse developers:
 [modifying-a-solana-dapp-to-support-eclipse-chomping-glass](modifying-a-solana-dapp-to-support-eclipse-chomping-glass/)
 {% endcontent-ref %}
 
-{% content-ref url="eclipse-program-registry-guide.md" %}
-[eclipse-program-registry-guide.md](eclipse-program-registry-guide.md)
+{% content-ref url="../../developers/eclipse-program-registry-guide.md" %}
+[eclipse-program-registry-guide.md](../../developers/eclipse-program-registry-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="dapp-deployment-tutorial-eclipse-devnet/" %}

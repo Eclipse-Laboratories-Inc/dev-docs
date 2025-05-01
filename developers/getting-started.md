@@ -22,7 +22,7 @@ layout:
   * [ ] [Review the differences](differences-between-eclipse-and-solana.md) between Eclipse and Solana.
   * [ ] [Modify a Solana dApp](../tutorials-and-guides/developer-guides/modifying-a-solana-dapp-to-support-eclipse-chomping-glass/) to use Eclipse.
   * [ ] Explore the [**Eclipse Testnet**](../tutorials-and-guides/developer-guides/quick-start-hello-world/testnet.md) by bridging using our [canonical bridge](bridges/eclipse-canonical-bridge.md).
-  * [ ] Make sure to register any deployed programs into the [Eclipse Program Registry](../tutorials-and-guides/developer-guides/eclipse-program-registry-guide.md).
+  * [ ] Make sure to register any deployed programs into the [Eclipse Program Registry](eclipse-program-registry-guide.md).
   * [ ] Bridge to Eclipse mainnet using the [Eclipse Deposit CLI](bridges/eclipse-canonical-bridge.md) or the official mainnet bridge site:  [https://bridge.eclipse.xyz/](https://bridge.eclipse.xyz/)
 * **For Those Interested in Eclipse's Architecture:**
   * [ ] Directly move to the sections detailing the **architecture of** [**Eclipse Mainnet**](../eclipse-architecture/what-is-eclipse-mainnet/) and the underlying design decisions.
