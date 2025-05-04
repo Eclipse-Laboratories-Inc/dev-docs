@@ -1,8 +1,6 @@
 # OpenBook Quickstart
 
 {% hint style="info" %}
-INFO
-
 The goal of this section is to develop a smart contract to interact with the OpenBook deployment on the Eclipse Devnet
 {% endhint %}
 

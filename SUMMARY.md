@@ -38,7 +38,7 @@
   * [Decentralized Identities](developers/developer-tooling/decentralized-identities/README.md)
     * [AllDomains](developers/developer-tooling/decentralized-identities/alldomains.md)
   * [OpenBook Quickstart](developers/developer-tooling/openbook-quickstart.md)
-  * [Squads (Multisig)](developers/developer-tooling/squads-multisig.md)
+  * [Multisig](developers/developer-tooling/multisig.md)
 * [Eclipse Bug Bounty Program](developers/eclipse-bug-bounty-program.md)
 * [Eclipse Status Page](developers/eclipse-status-page.md)
 * [Frequently Asked Questions](developers/frequently-asked-questions.md)
@@ -47,7 +47,6 @@
 
 ## 📖 Tutorials & Guides
 
-* [User Guides](tutorials-and-guides/user-guides.md)
 * [Developer Guides](tutorials-and-guides/developer-guides/README.md)
   * [Quick Start: "Hello World"](tutorials-and-guides/developer-guides/quick-start-hello-world/README.md)
     * [Testnet](tutorials-and-guides/developer-guides/quick-start-hello-world/testnet.md)
