@@ -142,6 +142,6 @@ The Solana Virtual Machine (SVM) is the most battletested parallelized virtual m
 
 <summary>Have we undergone any third-party audits?</summary>
 
-Yes, we have completed audits with with Zellic & OtterSec and Halborn is completing a second audit.
+Yes, we have completed audits with Zellic & OtterSec and Halborn is completing a second audit.
 
 </details>
