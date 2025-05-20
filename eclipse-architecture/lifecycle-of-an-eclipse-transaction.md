@@ -10,9 +10,9 @@ description: >-
 
 As with all chains, users typically start interacting with Eclipse via some dApp. The dApp proposes a transaction for the user to sign with their wallet, and the signed transaction is sent to an **RPC node**.
 
-RPC nodes implement different APIs depending on the blockchain. For example, EVM chains typically implement the [Ethereum](https://ethereum.org/en/developers/docs/apis/json-rpc/) JSON-RPC whereas [Solana](https://docs.solana.com/api/http) VM (SVM) chains have their own JSON-RPC specification. Since Eclipse can support both EVM and SVM chains, we have to handle both of these types of transactions.
+RPC nodes implement different APIs depending on the blockchain. For example, EVM chains typically implement the [Ethereum](https://ethereum.org/en/developers/docs/apis/json-rpc/) JSON-RPC whereas [Solana](https://docs.solana.com/api/http) VM (SVM) chains have their own JSON-RPC specification. 
 
-Eclipse Mainnet implements the SVM JSON-RPC. To handle EVM transactions, we run [proxy nodes](https://github.com/Eclipse-Laboratories-Inc/neon-proxy) which implement the Ethereum JSON-RPC to receive EVM transactions, wrap them into SVM transactions, and send them to Eclipse nodes which are running the SVM JSON-RPC. SVM wallets can send transactions straight to Eclipse full nodes.
+Eclipse Mainnet implements the SVM JSON-RPC. SVM wallets can send transactions straight to Eclipse full nodes.
 
 ## 2. Sequencing Transactions
 
