@@ -56,3 +56,4 @@ Eclipse Mainnet works with all the standard Solana tooling. This guide provides 
 
 * [Helius](https://www.helius.dev/): Solana RPCs, APIs, webhooks and infrastructure to build and ship crypto apps, fast.
 * [Triton One](https://triton.one/): The fastest, most reliable RPC solution for Solana.
+* [BlockPI](https://blockpi.io/chain/solana): The most cost-effective and high-performance multi-chain RPC provider.
