@@ -42,7 +42,7 @@ Eclipse Mainnet works with all the standard Solana tooling. This guide provides 
 
 ## Testing and Debugging
 
-* [Solana's built-in Rust testing](https://docs.solana.com/developing/on-chain-programs/testing): Solana supports Rust's built-in testing framework, enabling developers to write unit tests for their smart contracts.
+* [Solana's built-in Rust testing](https://solana.com/developers/guides/getstarted/solana-test-validator): Solana supports Rust's built-in testing framework, enabling developers to write unit tests for their smart contracts.
 * [Solana Explorer](https://explorer.solana.com/): A block explorer for the a network, which allows developers to monitor transactions, accounts, and program execution on the testnets and mainnet.
 
 ## Wallets and dApp Interaction
