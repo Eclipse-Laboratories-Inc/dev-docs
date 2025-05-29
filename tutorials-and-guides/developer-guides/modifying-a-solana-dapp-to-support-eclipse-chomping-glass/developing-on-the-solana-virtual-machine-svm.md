@@ -264,7 +264,7 @@ for (account, amount) in transfers.iter() {
     let ix = solana_program::system_instruction::transfer(source, account, *amount);
     ix_batch.push(ix);
 }
-let batch_instruction = solana_program::instruction::Instruction::new_bacth(&ix_batch);
+let batch_instruction = solana_program::instruction::Instruction::new_batch(&ix_batch);
 invoke(&batch_instruction, &[]).unwrap();
 ```
 
