@@ -8,8 +8,8 @@
   * [3. Explore the Eclipse Ecosystem](users/readme/3.-explore-the-eclipse-ecosystem.md)
   * [4. Engage with the Community on Discord](users/readme/4.-engage-with-the-community-on-discord.md)
 * [User Resources](users/user-resources.md)
-* [Unified Restaking Tokens (URTs)](users/unified-restaking-tokens-urts.md)
-* [Yield From Real World Treasury Bills](users/tusd.md)
+* [tETH](users/teth.md)
+* [tUSD](users/tusd.md)
 * [Turbo Tap FAQ](users/turbo-tap-faq.md)
 
 ## 🛠️ Developers
