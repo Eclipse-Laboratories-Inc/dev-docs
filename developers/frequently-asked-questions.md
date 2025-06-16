@@ -62,7 +62,7 @@ A virtual machine is a piece of software that can run programs. Specifically, th
 
 <summary>What is a rollup? Is Eclipse an optimistic or zero-knowledge rollup?</summary>
 
-For comparison, a Layer 1 blockchain is a blockchain that does not depend on any other chain for security. Layer 1 blockchains require that the majority of voting power is honest. A [_rollup_](https://www.eclipse.builders/blog/what-is-a-rollup) is a type of scaling solution that executes transactions outside of any Layer 1 and later posts the data to a Layer 1 retroactively.\
+For comparison, a Layer 1 blockchain is a blockchain that does not depend on any other chain for security. Layer 1 blockchains require that the majority of voting power is honest. A [_rollup_](https://www.blockchain-gt.io/newsletters/rollups-eclipse) is a type of scaling solution that executes transactions outside of any Layer 1 and later posts the data to a Layer 1 retroactively.\
 \
 For an _optimistic rollup_, a "sequencer" orders transactions and the resulting state root is posted to a Layer 1 along with a bounty. A "verifier" can re-execute the transactions, and if it disagrees on the result, the verifier can challenge the state root via "settlement." If the verifier is correct, the bounty is awarded to the verifier.\
 \
